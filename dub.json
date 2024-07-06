@@ -1,0 +1,27 @@
+{
+	"authors": [
+		"Mai-Lapyst"
+	],
+	"copyright": "Copyright © 2024, Mai-Lapyst",
+	"description": "Dlang server pages",
+	"license": "AGPL-3.0-or-later",
+	"name": "ninox-d_dsp",
+	"dependencies": {
+		"ninox-d_std:callable": "~>1.5.0"
+	},
+	"configurations": [
+		{
+			"name": "application",
+			"targetType": "executable",
+			"sourceFiles": ["source/ninox/dsp/main.d"],
+			"dependencies": {
+				"d-glob": "~>0.4.0"
+			}
+		},
+		{
+			"name": "library",
+			"targetType": "library",
+			"excludedSourceFiles": ["source/ninox/dsp/main.d"]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ninox-d_dsp
+*ninox-d_dsp.so
+*ninox-d_dsp.dylib
+*ninox-d_dsp.dll
+*ninox-d_dsp.a
+*ninox-d_dsp.lib
+ninox-d_dsp-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+*.gen.d
